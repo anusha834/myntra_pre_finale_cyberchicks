@@ -1,0 +1,36 @@
+aside {
+    position: fixed;
+    left: 0;
+    top: 12%;
+    width: 19%;
+    height: 100%;
+    background-color: #ffffff;
+    overflow-y: hidden;
+    padding-right: 1%;
+  }
+  
+  aside img {
+    width: 100%;
+    height: auto;
+    
+  }
+  
+  main {
+    margin-left: 220px; /* Adjust this value based on the width of the sidebar */
+    padding: 20px;
+    width: calc(100% - 220px); /* Adjust this value based on the width of the sidebar */
+  }
+  .image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .rec-text{
+    background-color: #f15daae2;
+    color: white;
+    width: 430px;
+    height: 10%;
+    margin-left: 20px  ;
+  }

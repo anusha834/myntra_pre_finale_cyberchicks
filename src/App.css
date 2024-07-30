@@ -1,0 +1,215 @@
+/* .app {
+  text-align: center;
+}
+
+.app-header {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.app-header h1 {
+  font-size: 2em;
+  margin: 0;
+}
+
+.upload-btn {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 1em;
+  background-color:#FF877D ;
+  border-radius: 20px;
+  
+  padding: 20px;
+  width: 200px;
+  height: 20px;
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.logo{
+  height: 89px;
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.navbar{
+  width: 100%;
+
+}
+
+/* App.css */
+/* .aesthetic-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.category-section {
+  text-align: center;
+}
+
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+} */ 
+
+
+/* App.css */
+
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+/* Container styles */
+*{
+  /* Hide vertical scrollbar */
+  overflow-x: hidden; 
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;}
+ 
+
+/* Header styles */
+h1 {
+  text-align: center;
+  color: #333;
+  margin-top: 20px;
+}
+
+h2 {
+  color: #555;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+}
+
+/* Aesthetic list styles */
+.aesthetic-list {
+ 
+  justify-content: center;
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+}
+
+.aesthetic-card {
+  width: 350px;
+  
+  height: 80vh;
+  margin: 10px;
+  margin-top: 1px;
+  display: flex;
+  flex-direction: column; /* Ensure text is below image */
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  background-color: #faeaf2;
+
+ 
+
+  
+}
+
+.aesthetic-card:hover {
+  background-color:#fdd9eb;
+}
+
+/* Button styles */
+.type-list{
+  margin-left:177px;
+
+ 
+
+}
+.type-button {
+  /* margin-top: 20px; */
+  width: 30%;
+  height: 50px;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border: none;
+  border-radius: 2px;
+  transition: background-color 0.3s ease;
+  font-size: 1.1rem;
+}
+
+.type-button:hover {
+  background-color: #faeaf2;
+  
+}
+
+.selected-button {
+  background-color: #f15daae2;
+  color: white;
+}
+
+/* Image gallery styles */
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.image-gallery img {
+  width: 200px;
+  height: auto;
+  margin: 10px;
+  /* border-radius: 5px; */
+  transition: transform 0.3s ease;
+  cursor:pointer;
+}
+
+
+.aesthetic-image {
+  width: 100%;
+  height: 85%;
+  border-bottom: 1px solid #ddd;
+  
+}
+
+.aesthetic-name{
+  padding: 10px;
+  font-size: 2.5em;
+  font-weight: 600;
+  font-family: 'Monaco';
+ 
+  color: #ff796d;
+  align-items: center;
+  text-decoration: none;
+  
+  
+}
+.main-card{
+  
+  top: 105px;
+ }
+
+ .navbar{
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  
+ }
+   
+
+
+
