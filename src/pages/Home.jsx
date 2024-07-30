@@ -1,26 +1,4 @@
-// import React from 'react';
-// import { Link } from 'react-router-dom';
-// import image1 from'../assets/boho image.jpg'
 
-// export default function Home() {
-//   const aesthetics = ['boho', 'e-girl', 'oldmoney'];
-
-//   return (
-//     <div>
-//       <h1>Choose an Aesthetic</h1>
-//       <div className="aesthetic-list">
-//         {aesthetics.map(aesthetic => (
-//           <Link key={aesthetic} to={`/category/${aesthetic}`}>
-//             <div className="aesthetic-card">
-//               <img></img>
-//               {aesthetic.charAt(0).toUpperCase() + aesthetic.slice(1)}
-//             </div>
-//           </Link>
-//         ))}
-//       </div>
-//     </div>
-//   );
-// }
 import React from 'react';
 import { Link } from 'react-router-dom';
 import bohoImage from '../assets/boho image.jpg';
