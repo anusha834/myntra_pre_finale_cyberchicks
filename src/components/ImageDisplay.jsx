@@ -1,4 +1,3 @@
-// src/components/ImageDisplay.js
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
@@ -7,22 +6,21 @@ const ImageDisplay = () => {
   const [selectedImage, setSelectedImage] = useState(null);
   const [recommendations, setRecommendations] = useState([]);
 
-  // Function to fetch images from Django backend
   useEffect(() => {
-    axios.get('/api/images/')  // Adjust the API endpoint as per your Django setup
+    axios.get('/api/images/')  
       .then(response => {
         setImages(response.data);
         if (response.data.length > 0) {
-          setSelectedImage(response.data[0]);  // Select the first image by default
+          setSelectedImage(response.data[0]);  
         }
       })
       .catch(error => console.error('Error fetching images:', error));
   }, []);
 
-  // Function to fetch recommendations based on selected image
+
   useEffect(() => {
     if (selectedImage) {
-      axios.get(`/api/recommendations/${selectedImage.id}/`)  // Adjust the API endpoint
+      axios.get(`/api/recommendations/${selectedImage.id}/`)  
         .then(response => setRecommendations(response.data))
         .catch(error => console.error('Error fetching recommendations:', error));
     }
@@ -40,7 +38,7 @@ const ImageDisplay = () => {
         {images.map(image => (
           <img
             key={image.id}
-            src={image.image_path}  // Assuming image_path is the URL to your image
+            src={image.image_path}  
             alt={`Image ${image.id}`}
             onClick={() => handleImageSelect(image)}
             style={{
