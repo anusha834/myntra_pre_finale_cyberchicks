@@ -16,9 +16,9 @@ aside {
   }
   
   main {
-    margin-left: 220px; /* Adjust this value based on the width of the sidebar */
+    margin-left: 220px; 
     padding: 20px;
-    width: calc(100% - 220px); /* Adjust this value based on the width of the sidebar */
+    width: calc(100% - 220px); 
   }
   .image-gallery {
     display: flex;
